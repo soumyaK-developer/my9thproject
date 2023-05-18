@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="check">
+        <div class="regestrationform">
+            <header class="head2">Signup</header>
+            <form action="#" class="form2">
+            <input type="text" class="flname" placeholder="Enter your full name">
+            <input type="email" class="sign-mail" placeholder="Enter your email adress">
+
+            <div class="passwd">
+            <input type="password" class="cretpasswd" placeholder="Create password">
+            <input type="password" class="confmpasswd" placeholder="Confirm password">
+            </div>
+
+
+
+            <div class="persinfo">
+            <input type="tel" class="cell-num" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your mobile no.">
+            <input type="date" class="birthyear" pattern="">
+            </div>
+
+            <p>Gender: </p>
+            <div class="gender">
+            <button class="btn"><input type="radio" id="Male" value="Male" name="sex">
+            <label for="Male">Male</label></button>
+            <button class="btn"><input type="radio" id="Female" value="Female" name="sex">
+            <label for="Female">Female</label></button>
+            <button class="btn"><input type="radio" id="3rdgender" value="Prefer not to say" name="sex">
+            <label for="3rdgender">Prefer not to say</label></button>
+        </div>
+
+
+
+            <input type="text" class="address" placeholder="Enter your address">
+
+            <select name="country" id="country">
+                <option value="" hidden>Country</option>
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="Russia">Russia</option>
+                <option value="England">England</option>
+                <option value="South africa">South africa</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Srilanka">Srilanka</option>
+                <option value="Newzland">Newzland</option>
+                <option value="West indies">West indies</option>
+                <option value="Bangladesh">Bangladesh</option>
+            </select>
+
+            <input type="number" class="postal" placeholder="Enter your postal code">
+
+
+            <button class="signup">Signup</button>
+            </form>
+            <div class="signin">
+                <span class="signin">Already have an account?
+                 <label for="check">Login</label>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

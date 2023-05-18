@@ -1,0 +1,162 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #826AFC;
+    
+}
+
+
+
+
+.regestrationform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-height: 550px;
+    max-width: 540px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 10px gray;
+    padding: 2rem;
+
+}
+.regestrationform > input {
+    font-size: 1rem;
+    
+
+}
+.regestrationform  input:focus {
+    background-color: #826AFC;
+    color: wheat;
+}
+.head2 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.flname, .sign-mail {
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    margin: .5rem 0;
+
+}
+.cretpasswd, .confmpasswd {
+    margin: 1rem  2rem .5rem 0; 
+    padding: 5px 15px;
+    border: 1px solid gainsboro;
+    outline: none;
+    border-radius: 5px;
+    width: 200px;
+
+}
+.cell-num, .birthyear {
+    margin: 1rem  2rem .5rem 0; 
+    padding: 5px 15px;
+    border: 1px solid gainsboro;
+    outline: none;
+    border-radius: 5px;
+    width: 200px;
+    
+     
+   
+}
+.gender {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+    
+}
+
+button {
+    background-color: none;
+    padding: 3px 15px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: skyblue;
+    color: black;
+    border: 1px sloid white;
+}
+.address {
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    margin: .5rem 0;
+
+}
+#country, .postal {
+    margin: 1rem  2rem .5rem 0; 
+    padding: 5px 15px;
+    border: 1px solid gainsboro;
+    outline: none;
+    border-radius: 5px;
+    width: 200px;
+}
+.regestrationform .signup {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: #826AFC;
+    color: white;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    }
+
+
+.signin {
+    font-size: 16px;
+    text-align: center;
+    margin: 15px;
+
+}
+.signin label {
+    color: #826AFC;
+    cursor: pointer;
+}
+.signin label:hover {
+    text-decoration: underline;
+}
+
+.container .registrationform{
+    display: none;
+  }
+  #check:checked ~ .registrationform{
+    display: block;
+  }
+  #check:checked ~ .loginform{
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .loginform {
+    display: none;
+  }
